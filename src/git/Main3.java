@@ -1,6 +1,7 @@
 package git;
 
 import java.util.TreeMap;
+import java.util.HashSet;
 public class Main3 {
 
     public void f()
@@ -8,6 +9,18 @@ public class Main3 {
         TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
 
         tm.put(1, "Illes");
+    }
+
+    public int g()
+    {
+        HashSet<Integer> set = new HashSet<Integer>();
+
+        set.add( 1 );
+        set.add( 2 );
+        set.add( 3 );
+        set.add( 1 );
+
+        return set.size();
     }
 
 
