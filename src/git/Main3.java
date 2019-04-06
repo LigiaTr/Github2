@@ -22,6 +22,11 @@ public class Main3 {
         return set.size();
     }
 
+    public int smth()
+    {
+        return 5+6;
+    }
+
 
     public static void main(String[] argv)
     {
